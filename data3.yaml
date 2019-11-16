@@ -1,0 +1,20 @@
+
+- admin: 111111
+- host: 222222
+
+- user : admin
+  pwd  : '123456'
+- user : host
+  pwd  : '111111'
+
+- [1,2,3]
+- [0,2,2]
+- [-1,2,1]
+
+- request:
+      method: post
+      url: http://115.28.108.130:5000/api/user/login/
+      data:
+          user: 张三
+          password: 123456
+      assert: [res.status_text==登录成功]

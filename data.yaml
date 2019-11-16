@@ -1,0 +1,39 @@
+name: Tom Smith
+age: 37
+spouse:
+    name: Jane Smith
+    age: 25
+children:
+ - name: Jimmy Smith
+   age: 15
+ - name1: Jenny Smith
+   age1: 12
+
+
+test_add:
+  - a:1
+  - b:2
+  - c:3
+
+
+test_a: { a: 1, b: 2 }
+test_b: { a: 3, b: 4 }
+
+test_c:
+  a:1
+  b:2
+test_d:
+  a:3
+  b:4
+
+animal: [Cat, Dog]
+
+
+
+
+
+
+
+
+
+
